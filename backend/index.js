@@ -12,9 +12,6 @@ const swaggerDocument = require('./swagger-autogen.json');
 const swaggerJSDoc = require('swagger-jsdoc');
 const jwt = require('jsonwebtoken');
 const secrect_key = "mncn"
-// import library and files
-
-const swaggerDocumentTest = require('./testSwagger.json');
 //create the connection to database
 const connection = mysql.createPool({
     host: process.env.DB_HOST,
